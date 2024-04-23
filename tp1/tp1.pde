@@ -1,17 +1,17 @@
 PImage Paisaje;
 void setup(){
   size(800,400);
-  background(255);
+      background(54,116,214);
   Paisaje = loadImage("museo.jpg");
 }
 
  void draw(){
-     background(54,116,214);
+ image(Paisaje,400,0);
 
 fill(137,106,144);
 rect(0,260,400,200);
   
-   image(Paisaje,400,0);
+
    
    fill(193,103,6);
    rect(0,166,400,100);
